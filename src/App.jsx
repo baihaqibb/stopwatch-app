@@ -6,7 +6,7 @@ function App() {
   return (
     <>
       <div className="stopwatch-app">
-        <h1 className="title">STOPWATCH APP</h1>
+        <h1 className="title">STOPWATCH</h1>
         <Stopwatch/>
       </div>
     </>
