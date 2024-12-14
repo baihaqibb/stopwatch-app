@@ -1,0 +1,12 @@
+.stopwatch-app{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transform: translateY(-15%);
+}
+.title{
+    font-size: 4.5rem;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    text-shadow: 3px 3px goldenrod, 6px 6px black;
+}

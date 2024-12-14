@@ -1,0 +1,43 @@
+.container{
+    background-color: hsl(0, 0%, 20%);
+    border: 5px solid royalblue;
+    border-radius: 20px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 5px 5px black;
+}
+.timer-display{
+    font-size: 5.5rem;
+    text-shadow: 5px 5px 5px hsl(0, 0%, 0%, 0.5);
+    margin: 10px 0px 20px 0px;
+}
+.controls button{
+    font-size: 2rem;
+    font-weight: bold;
+    color: white;
+    padding: 5px;
+    width: 120px;
+    height: 50px;
+    margin: 0px 10px;
+    border: none;
+    border-radius: 10px;
+    text-shadow: 3px 3px 3px hsl(0, 0%, 0%, 0.5);
+    box-shadow: 3px 3px 3px black;
+    cursor: pointer;
+    transition: filter 0.1s ease;
+}
+.container button:hover{
+    filter: brightness(85%);
+}
+.container button:active{
+    filter: brightness(70%);
+}
+#stop-button{
+    background-color: crimson;
+}
+#start-button{
+    background-color: royalblue;
+}
+#reset-button{
+    background-color: goldenrod;
+}
